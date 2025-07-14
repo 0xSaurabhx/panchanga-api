@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PanchangaApi", "src\PanchangaApi\PanchangaApi.csproj", "{B8B5C3F0-1234-4567-8901-123456789012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PanchangaApi.Core", "src\PanchangaApi.Core\PanchangaApi.Core.csproj", "{A1A1C3F0-1234-4567-8901-123456789013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PanchangaApi.Tests", "tests\PanchangaApi.Tests\PanchangaApi.Tests.csproj", "{C2C2C3F0-1234-4567-8901-123456789014}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B5C3F0-1234-4567-8901-123456789012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B5C3F0-1234-4567-8901-123456789012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B5C3F0-1234-4567-8901-123456789012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B5C3F0-1234-4567-8901-123456789012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A1C3F0-1234-4567-8901-123456789013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A1C3F0-1234-4567-8901-123456789013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A1C3F0-1234-4567-8901-123456789013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A1C3F0-1234-4567-8901-123456789013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C2C3F0-1234-4567-8901-123456789014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C2C3F0-1234-4567-8901-123456789014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C2C3F0-1234-4567-8901-123456789014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C2C3F0-1234-4567-8901-123456789014}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
